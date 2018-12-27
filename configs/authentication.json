@@ -1,0 +1,17 @@
+[
+  {
+    "scenario": "Example Authentication Section.",
+    "testCase": [
+      {
+        "method": "POST",
+        "model": "admin/login",
+        "withData": {
+          "username": "admin",
+          "password": "admin"
+        },
+        "expect": 200,
+        "description": "should respond 200 when Login as Admin POST at /admin/login"
+      }
+    ]
+  }
+]
